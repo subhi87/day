@@ -88,5 +88,4 @@ messageBox.addEventListener('click', ()=>{
     messageBox.querySelector('h1').textContent = "💖🙈 I Love You My THANGAMEY😘🫂💖";
     tapped = true;
   }
-
 });
