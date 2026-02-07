@@ -13,7 +13,7 @@ class Heart {
     this.speed = Math.random()*1.5 + 0.5;
     this.angle = Math.random()*2*Math.PI;
     this.spin = Math.random()*0.05 - 0.025;
-    this.color = "#ff4d6d";
+    this.color = "#f2ebed";
   }
 
   drawHeart(x, y, size){
@@ -88,4 +88,5 @@ messageBox.addEventListener('click', ()=>{
     messageBox.querySelector('h1').textContent = "💖🙈 I Love You My THANGAMEY😘🫂💖";
     tapped = true;
   }
+
 });
